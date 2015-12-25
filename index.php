@@ -7,7 +7,6 @@ require_once"header.php";
 Product Name :  adminPageFinder
 Coding By : zeyad Besiso
 Copyright © 2015
-Don't play under this Line , it's just for professionals :]
 */
 
 if(isset($_POST['add'])){
