@@ -1,32 +1,6 @@
 
-/*
-       Coding By : zeyad Besiso
-     email:( z.b@hacker.ps || zeyad.besiso@gmail.com  )
-     PleaseDon'tRamoveTheMassage
-     Copyright © 2014
-   */
 
 @import url("settings.css") all;
-@import url("../fonts/css/font.css") all;
-@import url("jquery.bxslider.css") all;
-@font-face {
-  font-family: 'ZeyadFont';
-  src: url(../fonts/DroidKufi-Regular.eot);
-  src: url(../fonts/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
-       url(../fonts/DroidKufi-Regular.woff2) format('x-woff2'),
-       url(../fonts/DroidKufi-Regular.woff) format('woff'),
-       url(../fonts/DroidKufi-Regular.ttf) format('truetype');
-       font-weight:bold;font-style:normal;
-  }
-@font-face {
-  font-family: 'ZeyadFonts';
-  src: url(../fonts/DroidKufi-Regular.eot);
-  src: url(../fonts/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
-       url(../fonts/DroidKufi-Regular.woff2) format('x-woff2'),
-       url(../fonts/DroidKufi-Regular.woff) format('woff'),
-       url(../fonts/DroidKufi-Bold.ttf) format('truetype');
-       font-weight:bold;font-style:normal;
-  }
 
 body{
 font-family:'ZeyadFont',Verdana,Menlo,Monaco,Consolas,'Courier New',monospace;
@@ -66,55 +40,3 @@ color:#59CC00;
 font-family: Menlo,Monaco,Consolas,'Courier New',monospace;}
 .status,.status1{margin:0;padding:0;font-family: Menlo,Monaco,Consolas,'Courier New',monospace;direction:ltr; color:red;}
 .navbar-default,.navbar{border:none;background-color: Black;}
-.navbar{
-border-radius:0;
-margin-bottom:0px;
-border:none;}
-.heg{
-margin-top:20px;
-} .heg2{
-margin-top:20px;
-}
-.heg1{
-  margin-top: 60px;
-}
-
-.navbar-collapse{border: none;}
-.dropdown ,.dropdown-toggle{
- background-color:#333;
-}
-.dropdown-menu{
-background-color:#333;
-border-radius: 0;
-border: none;
-box-shadow: 0px 6px 12px  rgba(69, 69, 69, 1);
-}
-
-.navbar-default .navbar-nav > li > a,.dropdown-menu > li > a { color: #00EB33;}
-.navbar-default .navbar-nav > li >a:hover {color: rgba(242, 242, 242, 1);}
-
-
-.dropdown-menu > li {
-  background-color: rgba(240, 56, 90, 1);
-  color: rgba(238, 238, 238, 1);
-}
-.navbar-default .navbar-toggle {
-border-color:#333;
-background-color:#333;
-}
-.navbar-default .navbar-toggle .icon-bar {
-border-color: #FFFFFF;
-}
-.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
-	background-color: #5E5E5E;}
-.panel-body{
-  background-color:#eee;
-}
-
-.navbar-default .navbar-brand > a{
-   color: #fff;
-}
-
-.navbar-default .navbar-brand >a:hover  {
-   color: #fff;}
-
