@@ -1,8 +1,3 @@
-window.setTimeout(function() {
-$("#message1").fadeTo(1000, 0).slideUp(1000, function(){
-$(this).remove();});}, 5500);
-
-
 
 $(window).load(function() {
   $("html, body").animate({ scrollTop: $(document).height() }, 1000);
@@ -48,14 +43,6 @@ function haxjk(){
 };
 
 
-
-window.setTimeout(function() {
-$("#message").fadeTo(1000, 0).slideUp(1000, function(){
-$(this).remove();});}, 5500);
-
-window.setTimeout(function() {
-$("#message2").fadeTo(800, 0).slideUp(800, function(){
-$(this).remove();});}, 8000);
 
 setInterval(function(){
 $('#timeval').load('js/time.php');
